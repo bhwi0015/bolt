@@ -29,6 +29,10 @@ font-family: Lato;
   padding: 15px 0;
 }
 
+.menu {
+  display: none;
+}
+
 .header__logo {
   color: gray;
   font-size: 40px;
@@ -285,5 +289,5 @@ margin-left: 80px;
     display: none;
   }
 
-  .
+
 }
