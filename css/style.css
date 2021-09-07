@@ -11,7 +11,7 @@
 }
 
 .font__lato {
-font-family: Lato;
+  font-family: Lato;
 }
 
 /*header*/
@@ -89,16 +89,13 @@ font-family: Lato;
 
 .can-do__inner {
   display: flex;
-  justify-content: space-between;
-}
-
-.can-do__img {
-margin-left: 80px;
+  justify-content: space-around;
+  font-size: 0;
 }
 
 .can-do__contents {
   color: white;
-  width: 650px;
+  width: 60%;
   margin-top: 30px;
 }
 
@@ -109,7 +106,7 @@ margin-left: 80px;
 .can-do__text {
   font-size: 20px;
   margin-top: 35px;
-  line-height: 28px;
+  line-height: 1.5;
 }
 
 /*OUR LATEST WORK*/
@@ -152,9 +149,9 @@ margin-left: 80px;
 }
 
 .work__email__text {
-  width:580px;
+  width: 60%;
   font-size: 20px;
-  line-height: 30px;
+  line-height: 1.5;
   display: inline-block;
 }
 
@@ -177,9 +174,13 @@ margin-left: 80px;
   font-size: 25px;
 }
 
+.skill__boxes {
+  margin-top: 70px;
+}
+
 .skill__box {
   display: inline-block;
-  margin: 70px 0 0 180px;
+  margin-left: 180px;
 }
 
 .skill__box:first-child {
@@ -289,5 +290,14 @@ margin-left: 80px;
     display: none;
   }
 
+  .menu {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    display: inline-block;
+  }
 
+  .menu span {
+
+  }
 }
