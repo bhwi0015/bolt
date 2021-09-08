@@ -251,6 +251,7 @@
   
   .can-do__contents {
     margin: 20px auto 0;
+    width: 100%;
   }
   
   .work__images {
@@ -322,6 +323,10 @@
     font-size: 80px;
   }
 
+  .can-do__contents {
+    width: 100%;
+  }
+  
   .sns__contents {
     padding: 50px 0;
   }
